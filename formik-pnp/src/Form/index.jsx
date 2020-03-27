@@ -15,7 +15,7 @@ const Form = () => {
         firstname:'', 
         lastname:''
         }, 
-        validationSchema,
+        validationSchema:{validationSchema},
         onSubmit: values => {
         alert(JSON.stringify(values, null, 2));
         }
